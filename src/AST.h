@@ -36,7 +36,7 @@ private:
 };
 
 // I really don't like having the functions defined in the header file but I really
-// cannot stand explicit instantiations at the .cpp file... Image needing a version 
+// cannot stand explicit instantiations at the .cpp file... Imagine needing a version 
 // for long, long long, unsigned, int, unsigned long long, double, long double.... etc... etc...
 
 template<class T>
