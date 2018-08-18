@@ -21,7 +21,7 @@ int main(){
         try{
             cout << "Result: " << Calculator<int>::calculate(str) << endl;
         }
-        catch(const std::exception& e){
+        catch(const exception& e){
             std::cerr << e.what() << '\n';
         }
     }
